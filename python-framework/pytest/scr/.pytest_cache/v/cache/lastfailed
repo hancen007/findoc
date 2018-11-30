@@ -1,0 +1,8 @@
+{
+  "test_assert.py::TestAssert::()::test_assert": true,
+  "test_para.py::TestPara::()::test_is_leap": true,
+  "test_para.py::TestPara::()::test_is_typeerror": true,
+  "test_para_class.py::TestPara::()": true,
+  "test_para_class.py::TestPara::()::test_is_typeerror[100-ValueError]": true,
+  "test_simple.py::test_two": true
+}

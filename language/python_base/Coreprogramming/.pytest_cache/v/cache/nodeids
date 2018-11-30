@@ -1,0 +1,4 @@
+[
+  "ex_1.py::test_login",
+  "ex_1.py::test_login_retry"
+]

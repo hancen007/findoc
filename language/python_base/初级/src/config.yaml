@@ -1,0 +1,7 @@
+SIT:sit
+ domain:http://47.106.115.161:8000
+ DB:database
+  host:10.16.91.209
+  username:jx_admin
+  password:jx_admin0708
+  port:3306

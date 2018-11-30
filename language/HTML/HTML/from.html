@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <title>表单</title>
+
+</head>
+<body>
+  <h3>用户注册</h3>
+  <form action="http://hantest.club" method="get">
+      <div>
+          <lable for="username">用户名:</lable>
+          <input type="text" id="username">
+      </div>
+      <br />
+      <div>
+        <label for="pwd">密码：</label>
+        <input type="password" name="pwd">
+      </div>
+      <div>
+        <lable>性别：</lable>
+        <input type="radio" name="gender" id="malse"> <label for="malse">男</label>
+        <input type="radio" name="gender"> 女
+      </div>
+      <div>
+        <lable>爱好：</lable>
+        <input type="checkbox" name="like"> 跑步
+        <input type="checkbox" name="like"> 跳舞
+      </div>
+      <div>
+        <lable>来源：</lable>
+          <select name="" id="">
+            <option value="">北京</option>
+            <option value="">广州</option>
+            <option value="">深圳</option>
+            <option value="">上海</option>
+            <option value="">佛山</option>
+          </select>
+      </div>
+      <div>
+        <lable>文件上传：</lable>
+        <input type="file">
+      </div>
+
+      <div>
+        <label>个人描述</label>
+        <textarea id="pd" cols="30" rows="10"></textarea>
+      </div>
+      <input type="submit" name="" value="提交">
+      <input type="reset" name="" value="重置">
+      <input type="hidden">
+  </form>
+
+</body>
+</html>

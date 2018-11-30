@@ -1,0 +1,4 @@
+{
+  "pytest-py.py::test_case": true,
+  "test_demo.py::myTest::test_verify_2_3": true
+}
